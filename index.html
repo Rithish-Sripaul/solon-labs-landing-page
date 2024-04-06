@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graphix</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <p class="logo">solon.labs</p>
+      <!-- <ul class="primary-nav">
+        <li class="nav-item">
+          <a href="#">Features</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#">Solutions</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#">Resources</a>
+        </li>
+      </ul> -->
+      <!-- <ul class="login-nav">
+        <li class="nav-item">
+          <a href="#">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="primary-button">Sign Up</a>
+        </li>
+      </ul> -->
+      <img class="mobile-nav" src="./assets/hamburger-icon" alt="Mobile Menu" />
+    </nav>
+  </header>
+  <main>
+    <div class="main-image">
+      <img src="solon_login.png" alt="bird" />
+    </div>
+    <div class="main-content">
+      <div class="animation_logo">
+        <div id="container">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
+
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 255 -140" />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+      <!-- <h1>solon<span>.</span>labs</h1> -->
+      <p>
+        Experience the power of AI powered Learning Models in a environment with many features catered to make the day
+        to day life of doctors easier.
+      </p>
+      <div class="main-buttons">
+        <a href="https://button-lighter-pal-lf.trycloudflare.com" class="main-button primary-button">Get Started Now</a>
+      </div>
+    </div>
+  </main>
+  <footer class="container">
+    <!-- <ul class="footer-socials">
+      <li>
+        <a href="#">
+          <img src="./assets/facebook-logo.svg" alt="facebook-logo" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/instagram-logo.svg" alt="instagram-logo" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/youtube-logo.svg" alt="youtube-logo" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/twitter-logo.svg" alt="twitter-logo" />
+        </a>
+      </li>
+    </ul> -->
+    <ul class="footer-links">
+      <li>
+        LinkedIn:
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/rithish-sripaul/">Rithish Sripaul</a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/devireddy-vishnu-vaibhav-reddy-183875236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Vishnu
+          Vaibhav</a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/vijay-tadepalli-279746226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Vijay
+          Tadepalli</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
